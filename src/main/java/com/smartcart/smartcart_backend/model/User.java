@@ -13,7 +13,7 @@ import java.util.Scanner;
 @AllArgsConstructor
 @Builder
 public class User {
-    @id
+    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
